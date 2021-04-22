@@ -32,6 +32,7 @@ def domain():
     hotkey('win', 'r')
     copy(dom)
     press('enter')
+    time.sleep(3)
     hotkey('alt', 'c')
     hotkey('alt', 'd')
     press('tab')
