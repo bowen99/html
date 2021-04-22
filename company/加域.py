@@ -1,10 +1,8 @@
 from pywinauto.keyboard import send_keys
-from pywinauto import application
-from datetime import datetime
 import time
 import pyautogui
 import pyperclip
-import os
+
 
 
 def copy(str):
